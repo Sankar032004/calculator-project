@@ -1,0 +1,101 @@
+ body {
+     background-color: #3b6c78;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ .output {
+     margin-top: 10px;
+     background-color: rgb(138, 136, 136);
+     margin-bottom: 20px;
+     border-radius: 10px;
+     border: 1px solid rgb(80, 79, 79);
+ }
+
+ #result {
+     background-color: rgb(159, 233, 233);
+     border: none;
+     border-radius: 7px;
+     width: 85%;
+     height: 30px;
+     margin: 23px 0px 20px 0px;
+     font-size: 25px;
+     font-family: 'Arial Narrow', Arial, sans-serif;
+     text-align: right;
+     padding-right: 15px;
+ }
+
+ .container {
+     width: 250px;
+     background: #aef;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+     text-align: center;
+ }
+
+ .input-button {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+ }
+
+ .bt {
+     width: 100%;
+     padding: 15px;
+     font-size: 1.2em;
+     border: none;
+     border-radius: 50px;
+     background: rgb(255, 255, 255);
+     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+     font-family: sans-serif;
+ }
+
+
+ .bt:hover {
+     border: none;
+     transition: all;
+     transition-duration: .07s;
+     filter: drop-shadow(1px 2px 2px rgb(237, 170, 170));
+ }
+
+ #equal {
+     grid-column: span 2;
+     /* Make = button taller */
+ }
+
+ #AC {
+     color: #fd0505;
+ }
+
+ #C {
+     color: #fd0505;
+ }
+
+ #division {
+     color: #0fff93;
+ }
+
+ #dot {
+     color: #00b191;
+
+ }
+
+ #addition {
+     color: #00b191;
+ }
+
+ #subtrac {
+     color: #00b191;
+ }
+
+ #multiply {
+     color: #00b191;
+ }
+
+ #equal {
+     color: #00b191;
+ }
